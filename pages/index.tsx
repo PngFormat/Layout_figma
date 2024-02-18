@@ -10,7 +10,7 @@ export default function Home() {
                 <header className={styles.header__home}>
                     <div className={styles.container__header}>
                         <h2 className={styles.header__logo}>
-                            <a href="#">World Peas</a>
+                            <a href="/product">World Peas</a>
                         </h2>
                         <a className={styles.myLink} href="#">
                             NewStand

@@ -1,0 +1,299 @@
+.container2 {
+    margin: auto auto auto auto;
+    width: 1441px;
+    height: 2092px;
+}
+
+.header__product {
+
+
+    height: 112px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+
+}
+
+.logo {
+    margin-right: 497px;
+}
+
+.myLink {
+    font-size: 14px;
+    flex: 1 1 auto;
+
+}
+
+.header__logo {
+
+    width: 151px;
+    height: 32px;
+    left: 96px;
+    top: 41px;
+
+    font-family: 'Newsreader';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    letter-spacing: -0.01em;
+
+    color: #426B1F;
+
+
+
+
+
+}
+
+.container__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 96px;
+    gap: 48px;
+
+    position: absolute;
+    width: 1441px;
+    height: 112px;
+    left: calc(50% - 1441px/2 + 0.5px);
+    top: 0px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+
+
+.basketButton {
+    color:white;
+    width: 126px;
+    height: 48px;
+/*    right: 96px;
+    top: 32px;*/
+
+    background: #426B1F;
+    border-radius: 8px;
+}
+
+.second__block {
+
+    height: 149px;
+    left: 96px;
+    top: 57px;
+
+    background: #FFFFFF;
+
+}
+
+.produce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    /* Fresh — August 21, 2023 */
+
+    width: 248px;
+    height: 26px;
+    left: 347px;
+    bottom: 33px;
+    margin-left: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+
+
+}
+
+.buttons {
+    display: flex;
+
+    gap:10px;
+
+}
+
+.button__default {
+    /* Default chip */
+    color: white;
+    top: 0px;
+    width: 88px;
+    height: 40px;
+    right: 83px;
+    bottom: 33px;
+    background: #426B1F;
+    border-radius: 20px;
+
+}
+
+.buttonAZ{
+    box-sizing: border-box;
+    top: 0px;
+    width: 62px;
+    height: 40px;
+    right: 90px;
+    bottom: 33px;
+    color:black;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 20px;
+
+}
+.btn__ListView{
+    /* List chip */
+    color:black;
+    box-sizing: border-box;
+    top: 0px;
+    width: 101px;
+    height: 40px;
+    right: 96px;
+    bottom: 33px;
+
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 20px;
+
+}
+
+.divider {
+
+    height: 0px;
+
+    bottom: 0px;
+    margin: 0px 90px 0 90px;
+    border: 2px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.textBlock{
+
+    font-family: 'Newsreader';
+    margin-left: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120%;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+
+}
+.product__block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 96px;
+    gap:32px;
+}
+.product {
+    /* Tomato */
+
+    box-sizing: border-box;
+
+    height: 444px;
+    left: 96px;
+    right: 949px;
+    top: 301px;
+
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    border-radius: 24px;
+
+}
+.image__product1 {
+    width: 395px;
+    height: 296px;
+
+    bottom: 148px;
+    border-radius: 24px;
+
+}
+
+.card {
+    /* Tomato */
+
+    box-sizing: border-box;
+
+    height: 444px;
+    left: 96px;
+    right: 949px;
+
+
+    background: #FAFAF5;
+    border: 2px solid #E6E6E6;
+    border-radius: 24px;
+
+
+}
+
+.card__text {
+    /* Heirloom tomato */
+    margin-top:24px;
+    margin-left: 24px;
+    width: 162px;
+    height: 26px;
+    left: 24px;
+    bottom: 98px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+
+
+    color: #000000;
+
+
+}
+
+.price {
+    /* $5.99 / lb */
+    margin-top:0px;
+    width: 92px;
+    height: 26px;
+    left: 24px;
+    bottom: 68px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    color: #426B1F;
+
+
+}
+.info {
+    /* Grown in San Juan Capistrano, CA */
+
+
+    width: 259px;
+    height: 24px;
+    left: 24px;
+    bottom: 28px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #6D6D6D;
+
+
+}
